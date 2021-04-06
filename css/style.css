@@ -1,0 +1,164 @@
+:root
+{
+    --Theme--:rgb(44, 43, 43);
+}
+*
+{
+    padding:0;
+    margin:0;
+}
+.footer
+{
+    background-color: var(--Theme--);
+    color:white;
+    padding: 20px 130px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.footer .about
+{
+  padding:12px;
+  justify-content: space-between;
+  margin-bottom: 10px; 
+}
+.footer about p
+{
+    line-height: 1.2em;
+}
+.footer .about strong
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.about .specs
+{
+    padding-top: 25px;
+    margin-left: -5px;
+    margin-bottom: 15px;
+}
+.specs .fa
+{
+    margin:5px;
+    font-size: 25px;
+    color:rgb(45, 45, 207);
+}
+.about .specs p
+{
+    margin-bottom: 15px;
+    margin-left: 25px;
+} 
+.about .specs1
+{
+    margin-left: -10px;
+    margin-bottom: 15px;
+}
+.about .specs1 p
+{
+    margin-left: 32px;
+}
+.specs1 .fa
+{
+    margin:5px;
+    font-size: 25px;
+    color:rgb(45, 45, 207);
+}
+.about .specs2
+{
+    margin-left: -10px;
+    margin-bottom: 15px;
+}
+.about .specs2 p
+{
+    margin-left: 33px;
+}
+.specs2 .fa
+{
+    margin:5px;
+    font-size: 25px;
+    color:rgb(45, 45, 207);
+}
+.footer .fresh 
+{
+    margin-top: -50vh;
+    margin-left: 55vh;
+    justify-content: space-between;
+}
+.fresh strong
+{
+    font-size: 20px;
+}
+.fresh .t1
+{
+  display: flex;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+.fresh .t1 p
+{
+   
+    margin-bottom: 10px;
+}
+.t1 .fa
+{
+    margin-right:10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color:rgb(45, 45, 207);
+}
+.footer .lu 
+{
+    margin-top: -50vh;
+    margin-left: 98vh;
+    justify-content: space-between;    
+}
+.lu strong
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.lu .t2
+{
+    display: flex;
+    margin-left: 20px;
+}
+.lu .t2 p
+{
+    margin:7px;
+}
+.t2 .calender
+{
+    text-align: center;
+    font-size: 15px;  
+    border: 2px solid white;  
+    height:55px;  
+}
+.footer .connect
+{
+    /*margin-top: -150px;*/
+    margin-top: -80px;
+    margin-left: 145vh;
+    justify-content: space-between;
+}
+.footer .connect strong
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.connect .form input
+{
+    border: 2px solid blue;
+    padding:5px;
+}
+.icons .fa
+{
+   padding: 5px;
+   margin-top: 20px;
+   font-size: 25px;
+   border: 2px solid rgb(35, 35, 167);
+   background-color:rgb(35, 35, 167);
+   border-radius: 50px;
+}
